@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+a{
+  color: black !important;
+}
+
+a.active {
+  color: red !important;
+}
+
+
+.main-container{
+  width: 500px;
+  margin: auto;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+body{
+  background-color: rgb(231, 235, 240);
+}
