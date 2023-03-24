@@ -9,7 +9,7 @@ const Animals = () => {
 
 
     useEffect(() => {
-        axios.get(`http://localhost:3000/animals/${type}`)
+        axios.get(`http://localhost:3001/animals/${type}`)
             .then(({ data }) => {
                 console.log(data);
                 setAnimals(data);
